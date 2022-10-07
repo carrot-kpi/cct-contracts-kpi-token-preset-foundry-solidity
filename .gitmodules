@@ -1,0 +1,3 @@
+[submodule "lib/carrot"]
+	path = lib/carrot
+	url = https://github.com/carrot-kpi/contracts-v1
