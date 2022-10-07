@@ -19,9 +19,11 @@ contract KPITokenTemplate is IKPITokenTemplate {
 
     function redeem(bytes memory _data) external override {}
 
-    function creator() external view override returns (address) {
+    function owner() external view override returns (address) {
         return address(0);
     }
+
+    function transferOwnership(address _newOwner) external override {}
 
     function template() external view override returns (Template memory) {
         return
