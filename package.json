@@ -9,7 +9,7 @@
         "lint": "prettier -l src/**/*.sol tests/**/*.sol",
         "build": "forge build",
         "test": "forge test",
-        "prepare": "forge install"
+        "prepare": "./init.js"
     },
     "devDependencies": {
         "prettier": "^2.7.1",
