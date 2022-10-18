@@ -1,4 +1,5 @@
 {
+    "type": "module",
     "name": "cct-contracts-kpi-token-preset-foundry-solidity",
     "version": "0.1.0",
     "description": "A preset for developing Carrot KPI token template smart contracts with Foundry and Solidity.",
